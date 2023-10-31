@@ -1,11 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;800&display=swap');
 
+:root {
+    --raisinBlack: #272838;
+    --flax: #F3DE8A;
+    --coralPink: #EB9486;
+    --coolGray: #7E7F9A;
+}
+
 body {
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
 }
 
-h2 {
+h1 {
+    font-size: 100pt;
     font-weight: 800;
 }
 
+h2 {
+    font-weight: 800;
+    color: var(--flax);
+    /* text-shadow: 3px 2px var(--raisinBlack); */
+}
+
+header {
+    background-color: var(--coolGray);
+    width: 100%;
+}
+
+#hero {
+    background-color: var(--coralPink);
+}
