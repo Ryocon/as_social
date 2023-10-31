@@ -15,6 +15,10 @@ body {
 h1 {
     font-size: 100pt;
     font-weight: 800;
+
+    @media only screen and (max-width: 768px) {
+        font-size: 50pt;
+    }
 }
 
 h2 {
