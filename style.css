@@ -10,10 +10,29 @@
 body {
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
+    /* overflow-x: hidden; */
+}
+
+/* possibly redundant */
+#header-title {
+    font-size: 15pt;
+}
+
+.navbar {
+    background-color: var(--coolGray);
+    
+}
+
+#nav-link-active, .nav-link {
+    color: var(--flax);
+}
+
+#about {
+    font-size: 15pt;
 }
 
 h1 {
-    font-size: 100pt;
+    font-size: 90pt;
     font-weight: 800;
 
     @media only screen and (max-width: 768px) {
@@ -34,4 +53,13 @@ header {
 
 #hero {
     background-color: var(--coralPink);
+
+    @media only screen and (max-width: 768px) {
+        height: 50vh;
+    }
+}
+
+img {
+    height: 200px;
+    width: 100px; 
 }
