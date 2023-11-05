@@ -19,30 +19,30 @@ body {
 }
 
 .navbar {
-    background-color: var(--coolGray);
-    
+    background-color: var(--coralPink);
 }
 
 #nav-link-active, .nav-link {
-    color: var(--flax);
+    color: var(--raisinBlack);
 }
 
 #about {
     font-size: 15pt;
+    background-color: var(--flax);
 }
 
 h1 {
-    font-size: 90pt;
-    font-weight: 800;
+    /* font-size: 50pt; */
+    font-weight: 800 !important;
 
-    @media only screen and (max-width: 768px) {
-        font-size: 50pt;
-    }
+    /* @media only screen and (max-width: 768px) { */
+        /* font-size: 50pt; */
+    /* } */
 }
 
 h2 {
-    font-weight: 800;
-    color: var(--flax);
+    font-weight: 800 !important;
+    color: var(--raisinBlack);
     /* text-shadow: 3px 2px var(--raisinBlack); */
 }
 
@@ -60,6 +60,6 @@ header {
 }
 
 img {
-    height: 200px;
-    width: 100px; 
+    height: 300px;
+    width: 200px; 
 }
