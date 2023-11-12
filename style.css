@@ -46,6 +46,12 @@ h2 {
     /* text-shadow: 3px 2px var(--raisinBlack); */
 }
 
+h3 {
+    font-weight: 800 !important;
+    color: var(--raisinBlack);
+    /* text-shadow: 3px 2px var(--raisinBlack); */
+}
+
 header {
     background-color: var(--coolGray);
     width: 100%;
