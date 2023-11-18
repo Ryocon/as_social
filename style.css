@@ -65,7 +65,21 @@ header {
     }
 }
 
+#boxes {
+    background-color: var(--raisinBlack);
+}
+
+#modal-onboarding {
+    background-color: var(--coralPink);
+}
+
 img {
     height: 300px;
     width: 200px; 
 }
+
+/* #hero-icons {
+    @media only screen and (max-width: 768px) {
+        font-size: 20px !important;
+    }
+} */
